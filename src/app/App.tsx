@@ -1,5 +1,5 @@
-export const App = () => {
-  const heading = 'ANT';
+import { PersonalAccount } from '~/PersonalAccount/ui/PersonalAccount';
 
-  return <h1>{heading}</h1>;
+export const App = () => {
+  return <PersonalAccount />;
 };
