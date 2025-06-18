@@ -41,10 +41,10 @@ export const MenuItems = ({ isHidden }: MenuItemsProps) => {
       )}
       {Object.values(SIDEBAR).map((item) => {
         return (
-          <div key={item} className={itemClass}>
-            {getSvg(item)}
-            <p className={itemTextClass}>{item}</p>
-          </div>
+          <button key={item} className={itemClass}>
+            <span className={styles.itemSvg}>{getSvg(item)}</span>
+            <span className={itemTextClass}>{item}</span>
+          </button>
         );
       })}
     </div>

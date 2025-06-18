@@ -30,7 +30,7 @@ export const Sidebar = () => {
       </div>
       <MenuItems isHidden={isHidden} />
       <button className={buttonClass} onClick={handleHiddenClick}>
-        <SidebarLeft />
+        <SidebarLeft width={24} height={24} />
       </button>
     </Box>
   );

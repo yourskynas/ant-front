@@ -1,4 +1,6 @@
 .items {
+  display: flex;
+  flex-direction: column;
   gap: 4px;
   max-inline-size: 240px;
 }
@@ -21,13 +23,14 @@
 
 .item {
   display: flex;
-  flex-direction: row;
   gap: 16px;
   align-items: center;
   block-size: 56px;
   padding-block: 0;
   padding-inline: 16px;
   cursor: pointer;
+  background-color: rgb(255 255 255 / 100%);
+  border: none;
   border-radius: 14px;
 }
 
@@ -49,12 +52,16 @@
   flex-direction: column;
   gap: 2px;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   inline-size: 64px;
-  min-inline-size: 0;
   block-size: 64px;
   min-block-size: 64px;
   padding-block: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background-color: rgb(255 255 255 / 100%);
+  border: none;
   border-radius: 14px;
 }
 
@@ -63,13 +70,15 @@
 }
 
 .miniItemText {
-  overflow: hidden;
-  text-overflow: ellipsis;
   font-family: Inter, sans-serif;
   font-size: 10px;
   font-weight: 500;
   line-height: 100%;
   text-align: center;
   letter-spacing: -0.24px;
-  white-space: nowrap;
+}
+
+.itemSvg {
+  inline-size: 24px;
+  block-size: 24px;
 }

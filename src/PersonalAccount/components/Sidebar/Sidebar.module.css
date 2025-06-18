@@ -5,7 +5,6 @@
   flex-direction: column;
   gap: 24px;
   inline-size: 256px;
-  block-size: 100vh;
   padding-block: 24px;
   padding-inline: 8px;
   border-inline-end: 1px solid rgb(0 0 0 / 8%);
@@ -31,7 +30,8 @@
   all: unset;
   position: absolute;
   inset-block-end: 5px;
-  inset-inline-end: -20px;
+  inset-inline-end: -5px;
+  box-sizing: border-box;
   gap: 8px;
   inline-size: 44px;
   block-size: 44px;
@@ -43,5 +43,6 @@
 }
 
 .rotateHideButton {
+  inset-inline-end: -20px;
   transform: rotate(180deg);
 }
