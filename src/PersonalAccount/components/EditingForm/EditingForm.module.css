@@ -1,0 +1,101 @@
+.form {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-block-start: 24px;
+}
+
+.formTitle {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0;
+}
+
+.inputConteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.aboutMeTextarea {
+  box-sizing: border-box;
+  max-inline-size: 100%;
+  block-size: 272px;
+  padding: 16px;
+  border: 1px solid rgb(0 0 0 / 16%);
+  border-radius: 12px;
+}
+
+.aboutMeTitle {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.referencesConteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.referencesInput {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.referencesButton {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  inline-size: 133px;
+  min-inline-size: 68px;
+  block-size: 44px;
+  padding-block: 12px;
+  padding-inline: 14px;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  vertical-align: middle;
+  color: rgb(79 16 255 / 100%);
+  text-align: center;
+  letter-spacing: 0%;
+  cursor: pointer;
+  background-color: rgb(79 16 255 / 10%);
+  border: none;
+  border-radius: 32px;
+}
+
+.submitButton {
+  gap: 10px;
+  inline-size: fit-content;
+  min-inline-size: 72px;
+  block-size: 56px;
+  padding: 16px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  vertical-align: middle;
+  color: rgb(255 255 255 / 100%);
+  text-align: center;
+  letter-spacing: 0%;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: rgb(0 0 0 / 100%);
+  border-radius: 14px;
+}

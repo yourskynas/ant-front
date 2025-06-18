@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-block: 32px;
+  border-block-end: 1px solid rgb(0 0 0 / 8%);
+}
+
+.headerText {
+  font-family: Inter, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -1px;
+}
+
+.logoutBtn {
+  all: unset;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  vertical-align: middle;
+  text-align: center;
+  letter-spacing: 0%;
+  cursor: pointer;
+}
+
+.logoutConteiner {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  min-inline-size: 68px;
+  block-size: 44px;
+  padding-block: 12px;
+  padding-inline: 14px;
+  border-radius: 32px;
+}
